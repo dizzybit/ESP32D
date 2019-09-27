@@ -26,19 +26,9 @@ P 4300 7475
 F 0 "J2" H 4350 7992 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 4350 7901 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4300 7475 50  0001 C CNN
-F 3 "~" H 4300 7475 50  0001 C CNN
+F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4300 7475 50  0001 C CNN
+F 4 "PC104-003-2*8-B-1" H 4300 7475 50  0001 C CNN "pn"
 	1    4300 7475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J3
-U 1 1 5D8B5A40
-P 4325 9300
-F 0 "J3" H 4375 9817 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 4375 9726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4325 9300 50  0001 C CNN
-F 3 "~" H 4325 9300 50  0001 C CNN
-	1    4325 9300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -119,7 +109,7 @@ Text GLabel 4625 9500 2    50   Input ~ 0
 IO0
 Text GLabel 4125 9100 0    50   Input ~ 0
 IO1
-Text GLabel 4625 9600 2    50   Input ~ 0
+Text GLabel 4125 9600 0    50   Input ~ 0
 IO2
 Text GLabel 4625 9100 2    50   Input ~ 0
 IO3
@@ -146,8 +136,6 @@ I36
 Text GLabel 4100 7175 0    50   Input ~ 0
 I39
 Text GLabel 4600 7775 2    50   Input ~ 0
-EXT_5V
-Text GLabel 4125 9600 0    50   Input ~ 0
 EXT_5V
 Text GLabel 2575 2900 0    50   Input ~ 0
 EN
@@ -1077,56 +1065,56 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5C8FAF19
-P 12225 10425
-F 0 "H4" H 12325 10471 50  0000 L CNN
-F 1 "MountingHole" H 12325 10380 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 12225 10425 50  0001 C CNN
-F 3 "~" H 12225 10425 50  0001 C CNN
-	1    12225 10425
+P 13050 10400
+F 0 "H4" H 13150 10446 50  0000 L CNN
+F 1 "MountingHole" H 13150 10355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 13050 10400 50  0001 C CNN
+F 3 "~" H 13050 10400 50  0001 C CNN
+	1    13050 10400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5C902F86
-P 12800 10400
-F 0 "H1" H 12900 10446 50  0000 L CNN
-F 1 "MountingHole" H 12900 10355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 12800 10400 50  0001 C CNN
-F 3 "~" H 12800 10400 50  0001 C CNN
-	1    12800 10400
+P 12100 10400
+F 0 "H1" H 12200 10446 50  0000 L CNN
+F 1 "MountingHole" H 12200 10355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 12100 10400 50  0001 C CNN
+F 3 "~" H 12100 10400 50  0001 C CNN
+	1    12100 10400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5C902FE8
-P 13450 10400
-F 0 "H2" H 13550 10446 50  0000 L CNN
-F 1 "MountingHole" H 13550 10355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 13450 10400 50  0001 C CNN
-F 3 "~" H 13450 10400 50  0001 C CNN
-	1    13450 10400
+P 12400 10400
+F 0 "H2" H 12500 10446 50  0000 L CNN
+F 1 "MountingHole" H 12500 10355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 12400 10400 50  0001 C CNN
+F 3 "~" H 12400 10400 50  0001 C CNN
+	1    12400 10400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5C90304E
-P 13950 10400
-F 0 "H3" H 14050 10446 50  0000 L CNN
-F 1 "MountingHole" H 14050 10355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 13950 10400 50  0001 C CNN
-F 3 "~" H 13950 10400 50  0001 C CNN
-	1    13950 10400
+P 12725 10400
+F 0 "H3" H 12825 10446 50  0000 L CNN
+F 1 "MountingHole" H 12825 10355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 12725 10400 50  0001 C CNN
+F 3 "~" H 12725 10400 50  0001 C CNN
+	1    12725 10400
 	1    0    0    -1  
 $EndComp
 $Comp
 L undo:DizzyBITLogo U3
 U 1 1 5C903A70
-P 14750 10225
-F 0 "U3" H 15128 10271 50  0000 L CNN
-F 1 "DizzyBITLogo" H 15128 10180 50  0000 L CNN
-F 2 "undo:DizzyBIT_silk_20" H 14750 10225 50  0001 C CNN
-F 3 "" H 14750 10225 50  0001 C CNN
-	1    14750 10225
+P 14175 10275
+F 0 "U3" H 14553 10321 50  0000 L CNN
+F 1 "DizzyBITLogo" H 13950 10075 50  0000 L CNN
+F 2 "undo:DizzyBIT_silk_20" H 14175 10275 50  0001 C CNN
+F 3 "" H 14175 10275 50  0001 C CNN
+	1    14175 10275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1235,23 +1223,23 @@ $EndComp
 $Comp
 L pcb:FIDUCIAL-1.5mm FID1
 U 1 1 5D240B4A
-P 12100 10100
-F 0 "FID1" H 12203 10159 50  0000 L CNN
-F 1 "FIDUCIAL-1.5mm" H 12203 10068 50  0000 L CNN
-F 2 "fab:FIDUCIAL-1.5mm" H 12100 9900 60  0001 C CNN
-F 3 "" H 12100 10075 60  0000 C CNN
-	1    12100 10100
+P 12100 10200
+F 0 "FID1" H 12203 10259 50  0000 L CNN
+F 1 "FIDUCIAL-1.5mm" H 12203 10168 50  0000 L CNN
+F 2 "fab:FIDUCIAL-1.5mm" H 12100 10000 60  0001 C CNN
+F 3 "" H 12100 10175 60  0000 C CNN
+	1    12100 10200
 	1    0    0    -1  
 $EndComp
 $Comp
 L pcb:FIDUCIAL-1.5mm FID2
 U 1 1 5D240BD6
-P 13050 10100
-F 0 "FID2" H 13153 10159 50  0000 L CNN
-F 1 "FIDUCIAL-1.5mm" H 13153 10068 50  0000 L CNN
-F 2 "fab:FIDUCIAL-1.5mm" H 13050 9900 60  0001 C CNN
-F 3 "" H 13050 10075 60  0000 C CNN
-	1    13050 10100
+P 13050 10200
+F 0 "FID2" H 13153 10259 50  0000 L CNN
+F 1 "FIDUCIAL-1.5mm" H 13153 10168 50  0000 L CNN
+F 2 "fab:FIDUCIAL-1.5mm" H 13050 10000 60  0001 C CNN
+F 3 "" H 13050 10175 60  0000 C CNN
+	1    13050 10200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1262,12 +1250,15 @@ F 0 "Q3" H 13904 1596 50  0000 L CNN
 F 1 "DMG2307L-7" H 13904 1505 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 13925 1400 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/DMG2307L-7.pdf" H 13925 1300 50  0001 L CNN
-F 4 "P-Channel Enhancement MOSFET SOT-23 Diodes Inc DMG2307L-7 P-channel MOSFET Transistor, -2 A, -30 V, 3-Pin SOT23" H 13925 1200 50  0001 L CNN "Description"
-F 5 "1.1" H 13925 1100 50  0001 L CNN "Height"
-F 6 "621-DMG2307L-7" H 13925 1000 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2307L-7" H 13925 900 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Diodes Inc." H 13925 800 50  0001 L CNN "Manufacturer_Name"
-F 9 "DMG2307L-7" H 13925 700 50  0001 L CNN "Manufacturer_Part_Number"
+F 4 "DMG2307L-7DITR-ND" H 13475 1450 50  0001 C CNN "dk_pn"
+F 5 "DMG2307L-7" H 13475 1450 50  0001 C CNN "pn"
+F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2307L-7/DMG2307L-7DITR-ND/2756043" H 13475 1450 50  0001 C CNN "dk_web"
+F 7 "P-Channel Enhancement MOSFET SOT-23 Diodes Inc DMG2307L-7 P-channel MOSFET Transistor, -2 A, -30 V, 3-Pin SOT23" H 13925 1200 50  0001 L CNN "Description"
+F 8 "1.1" H 13925 1100 50  0001 L CNN "Height"
+F 9 "621-DMG2307L-7" H 13925 1000 50  0001 L CNN "Mouser Part Number"
+F 10 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2307L-7" H 13925 900 50  0001 L CNN "Mouser Price/Stock"
+F 11 "Diodes Inc." H 13925 800 50  0001 L CNN "Manufacturer_Name"
+F 12 "DMG2307L-7" H 13925 700 50  0001 L CNN "Manufacturer_Part_Number"
 	1    13475 1450
 	1    0    0    -1  
 $EndComp
@@ -1307,6 +1298,9 @@ F 0 "U4" V 9571 5609 50  0000 R CNN
 F 1 "MCP73831-2-OT" V 9480 5609 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9575 5700 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 9375 5900 50  0001 C CNN
+F 4 "MCP73831T-2ATI/OTCT-ND" H 9525 5950 50  0001 C CNN "dk_pn"
+F 5 "MCP73831T-2ATI/OT" H 9525 5950 50  0001 C CNN "pn"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP73831T-2ATI-OT/MCP73831T-2ATI-OTCT-ND/1979803" H 9525 5950 50  0001 C CNN "dk_web"
 	1    9525 5950
 	0    -1   -1   0   
 $EndComp
@@ -1317,7 +1311,8 @@ P 8275 5725
 F 0 "J4" H 8195 5400 50  0000 C CNN
 F 1 "Conn_01x02" H 8195 5491 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 8275 5725 50  0001 C CNN
-F 3 "~" H 8275 5725 50  0001 C CNN
+F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2017/8/30/DS1066-06.pdf" H 8275 5725 50  0001 C CNN
+F 4 "DS1066-06-2-M-R-B-1-R" H 8275 5725 50  0001 C CNN "pn"
 	1    8275 5725
 	-1   0    0    1   
 $EndComp
@@ -1386,7 +1381,10 @@ P 9900 5350
 F 0 "D6" H 9950 5250 50  0000 R CNN
 F 1 "LED-YELLOW" H 10125 5450 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 9900 5350 50  0001 C CNN
-F 3 "" H 9900 5350 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2492854/LY%20R976.pdf" H 9900 5350 50  0001 C CNN
+F 4 "475-2560-1-ND" H 9900 5350 50  0001 C CNN "dk_pn"
+F 5 "LY R976-PS-36" H 9900 5350 50  0001 C CNN "pn"
+F 6 "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LY-R976-PS-36/475-2560-1-ND/1802687" H 9900 5350 50  0001 C CNN "dk_web"
 	1    9900 5350
 	1    0    0    1   
 $EndComp
@@ -1400,8 +1398,9 @@ U 1 1 5D94AE37
 P 10200 5350
 F 0 "R10" V 9993 5350 50  0000 C CNN
 F 1 "R1K" V 10084 5350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" V 10130 5350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10130 5350 50  0001 C CNN
 F 3 "" H 10200 5350 50  0001 C CNN
+F 4 "0805W8F1001T5E " H 10200 5350 50  0001 C CNN "pn"
 	1    10200 5350
 	0    -1   -1   0   
 $EndComp
@@ -1528,6 +1527,31 @@ F 4 "RR08P100KDTR-ND" H 9150 8775 50  0001 C CNN "dk_pn"
 F 5 "RR0816P-104-D" H 9150 8775 50  0001 C CNN "pn"
 F 6 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDTR-ND/432233" H 9150 8775 50  0001 C CNN "dk_web"
 	1    9150 8775
+	1    0    0    -1  
+$EndComp
+Text GLabel 4625 9600 2    50   Input ~ 0
+EN
+$Comp
+L undo:DizzyBITLogo U5
+U 1 1 5D8F1399
+P 15425 10275
+F 0 "U5" H 15803 10321 50  0000 L CNN
+F 1 "DizzyBIT-Layout" H 15125 10050 50  0000 L CNN
+F 2 "DizzyBit:DizzyBit-Din Rail Module" H 15425 10275 50  0001 C CNN
+F 3 "" H 15425 10275 50  0001 C CNN
+	1    15425 10275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J3
+U 1 1 5D8FF691
+P 4325 9300
+F 0 "J3" H 4375 9817 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 4375 9726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4325 9300 50  0001 C CNN
+F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4325 9300 50  0001 C CNN
+F 4 "PC104-003-2*8-B-1" H 4325 9300 50  0001 C CNN "pn"
+	1    4325 9300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
