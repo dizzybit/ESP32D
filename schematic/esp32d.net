@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\GIT\dizzybit\ESP32D\schematic\esp32d.sch)
-    (date "27.09.2019 12:22:49")
+    (date "27.09.2019 12:43:55")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -440,15 +440,23 @@
     (comp (ref R12)
       (value R100K)
       (footprint Resistor_SMD:R_0603_1608Metric)
+      (fields
+        (field (name dk_pn) RR08P100KDTR-ND)
+        (field (name dk_web) https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDTR-ND/432233)
+        (field (name pn) RR0816P-104-D))
       (libsource (lib _passive) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D987E35))
     (comp (ref R13)
       (value R100K)
       (footprint Resistor_SMD:R_0603_1608Metric)
+      (fields
+        (field (name dk_pn) RR08P100KDTR-ND)
+        (field (name dk_web) https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDTR-ND/432233)
+        (field (name pn) RR0816P-104-D))
       (libsource (lib _passive) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5DA1EF03)))
+      (tstamp 5D8EA109)))
   (libparts
     (libpart (lib Battery_Management) (part MCP73832-2-OT)
       (aliases

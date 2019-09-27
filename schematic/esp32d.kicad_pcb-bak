@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.31)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.31)
     (user_trace_width 0.508)
@@ -2133,7 +2133,7 @@
     )
   )
 
-  (module Button_Switch_SMD:TL3340 (layer F.Cu) (tedit 5D8DB83D) (tstamp 5D8DCF39)
+  (module Button_Switch_SMD:TL3340 (layer F.Cu) (tedit 5D8DD508) (tstamp 5D8DCF39)
     (at 136.652 96.012 180)
     (descr TL3340)
     (tags Switch)
@@ -2792,7 +2792,6 @@
   (segment (start 106.968 128.922) (end 106.968 129.159) (width 0.31) (layer F.Cu) (net 2))
   (segment (start 121.285 101.681987) (end 119.552013 101.681987) (width 0.31) (layer F.Cu) (net 2))
   (segment (start 137.033 100.965) (end 136.20299 101.79501) (width 0.31) (layer F.Cu) (net 2))
-  (segment (start 111.2265 124.587) (end 111.252 124.5615) (width 0.31) (layer F.Cu) (net 26))
   (segment (start 130.327724 97.028) (end 129.413 97.942724) (width 0.31) (layer F.Cu) (net 2))
   (segment (start 129.413 100.792987) (end 128.524 101.681987) (width 0.31) (layer F.Cu) (net 2))
   (segment (start 129.413 97.942724) (end 129.413 100.792987) (width 0.31) (layer F.Cu) (net 2))
@@ -3040,6 +3039,7 @@
   (segment (start 129.54 134.239) (end 132.969 137.668) (width 1) (layer B.Cu) (net 25))
   (segment (start 129.54 131.318) (end 129.54 134.239) (width 1) (layer B.Cu) (net 25))
   (segment (start 142.108 137.668) (end 132.969 137.668) (width 1) (layer B.Cu) (net 25))
+  (segment (start 111.2265 124.587) (end 111.252 124.5615) (width 0.31) (layer F.Cu) (net 26))
   (via (at 127 109.347) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 26))
   (segment (start 105.791 104.267) (end 100.711 109.347) (width 1) (layer B.Cu) (net 26))
   (segment (start 100.711 109.347) (end 99.441 109.347) (width 1) (layer B.Cu) (net 26))
