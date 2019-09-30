@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:esp32d-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1060,17 +1061,6 @@ F 1 "VBUS" H 12815 1573 50  0000 C CNN
 F 2 "" H 12800 1400 50  0001 C CNN
 F 3 "" H 12800 1400 50  0001 C CNN
 	1    12800 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5C8FAF19
-P 13050 10400
-F 0 "H4" H 13150 10446 50  0000 L CNN
-F 1 "MountingHole" H 13150 10355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 13050 10400 50  0001 C CNN
-F 3 "~" H 13050 10400 50  0001 C CNN
-	1    13050 10400
 	1    0    0    -1  
 $EndComp
 $Comp

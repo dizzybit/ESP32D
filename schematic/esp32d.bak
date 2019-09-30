@@ -26,19 +26,9 @@ P 4300 7475
 F 0 "J2" H 4350 7992 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 4350 7901 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4300 7475 50  0001 C CNN
-F 3 "~" H 4300 7475 50  0001 C CNN
+F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4300 7475 50  0001 C CNN
+F 4 "PC104-003-2*8-B-1" H 4300 7475 50  0001 C CNN "pn"
 	1    4300 7475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J3
-U 1 1 5D8B5A40
-P 4325 9300
-F 0 "J3" H 4375 9817 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 4375 9726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4325 9300 50  0001 C CNN
-F 3 "~" H 4325 9300 50  0001 C CNN
-	1    4325 9300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1321,8 +1311,8 @@ P 8275 5725
 F 0 "J4" H 8195 5400 50  0000 C CNN
 F 1 "Conn_01x02" H 8195 5491 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 8275 5725 50  0001 C CNN
-F 3 "~" H 8275 5725 50  0001 C CNN
-F 4 "DS1066-06-2-M-R-V-Gold-R" H 8275 5725 50  0001 C CNN "pn"
+F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2017/8/30/DS1066-06.pdf" H 8275 5725 50  0001 C CNN
+F 4 "DS1066-06-2-M-R-B-1-R" H 8275 5725 50  0001 C CNN "pn"
 	1    8275 5725
 	-1   0    0    1   
 $EndComp
@@ -1550,6 +1540,18 @@ F 1 "DizzyBIT-Layout" H 15125 10050 50  0000 L CNN
 F 2 "DizzyBit:DizzyBit-Din Rail Module" H 15425 10275 50  0001 C CNN
 F 3 "" H 15425 10275 50  0001 C CNN
 	1    15425 10275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J3
+U 1 1 5D8FF691
+P 4325 9300
+F 0 "J3" H 4375 9817 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 4375 9726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4325 9300 50  0001 C CNN
+F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4325 9300 50  0001 C CNN
+F 4 "PC104-003-2*8-B-1" H 4325 9300 50  0001 C CNN "pn"
+	1    4325 9300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
