@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:esp32d-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1093,11 +1092,8 @@ U 1 1 5C91D5BC
 P 5250 4150
 F 0 "R3" V 5150 3800 50  0000 L CNN
 F 1 "R4.7K" V 5150 3975 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5180 4150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5180 4150 50  0001 C CNN
 F 3 "" H 5250 4150 50  0001 C CNN
-F 4 "311-4.7KGRTR-ND" H 5250 4150 50  0001 C CNN "dk_pn"
-F 5 "RC0603JR-074K7L" H 5250 4150 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRTR-ND/726785" H 5250 4150 50  0001 C CNN "dk_web"
 	1    5250 4150
 	-1   0    0    1   
 $EndComp
@@ -1106,25 +1102,6 @@ Wire Wire Line
 Connection ~ 5250 4300
 Wire Wire Line
 	5250 4300 6175 4300
-Wire Wire Line
-	3775 4400 5625 4400
-$Comp
-L Device:R R4
-U 1 1 5C9418C5
-P 5625 4250
-F 0 "R4" V 5525 3900 50  0000 L CNN
-F 1 "R4.7K" V 5525 4075 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5555 4250 50  0001 C CNN
-F 3 "" H 5625 4250 50  0001 C CNN
-F 4 "311-4.7KGRTR-ND" H 5625 4250 50  0001 C CNN "dk_pn"
-F 5 "RC0603JR-074K7L" H 5625 4250 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRTR-ND/726785" H 5625 4250 50  0001 C CNN "dk_web"
-	1    5625 4250
-	-1   0    0    1   
-$EndComp
-Connection ~ 5625 4400
-Wire Wire Line
-	5625 4400 6175 4400
 Wire Wire Line
 	5250 4000 5250 1850
 Wire Wire Line
@@ -1544,4 +1521,20 @@ F 4 "PC104-003-2*8-B-1" H 4300 7475 50  0001 C CNN "pn"
 	1    4300 7475
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3775 4400 5625 4400
+$Comp
+L Device:R R4
+U 1 1 5D9ADC4E
+P 5625 4250
+F 0 "R4" V 5525 3900 50  0000 L CNN
+F 1 "R4.7K" V 5525 4075 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5555 4250 50  0001 C CNN
+F 3 "" H 5625 4250 50  0001 C CNN
+	1    5625 4250
+	-1   0    0    1   
+$EndComp
+Connection ~ 5625 4400
+Wire Wire Line
+	5625 4400 6175 4400
 $EndSCHEMATC

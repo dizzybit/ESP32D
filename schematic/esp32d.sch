@@ -21,18 +21,6 @@ VSPI_CLK
 Text GLabel 4125 9000 0    50   Input ~ 0
 VSPI_MOSI
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J2
-U 1 1 5D8B59AB
-P 4300 7475
-F 0 "J2" H 4350 7992 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 4350 7901 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4300 7475 50  0001 C CNN
-F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4300 7475 50  0001 C CNN
-F 4 "PC104-003-2*8-B-1" H 4300 7475 50  0001 C CNN "pn"
-	1    4300 7475
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0101
 U 1 1 5D8B5B52
 P 5175 6900
@@ -292,18 +280,18 @@ Wire Wire Line
 $Comp
 L Device:R R2
 U 1 1 5C4E7D51
-P 9775 10550
-F 0 "R2" H 9845 10596 50  0000 L CNN
-F 1 "R470ohm(1%)" H 9845 10505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9705 10550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRTR-ND/727256" H 9775 10550 50  0001 C CNN
-F 4 "311-470HRTR-ND" H 9775 10550 50  0001 C CNN "dk_pn"
-F 5 "RC0603FR-07470RL" H 9775 10550 50  0001 C CNN "pn"
-	1    9775 10550
+P 9450 10550
+F 0 "R2" H 9520 10596 50  0000 L CNN
+F 1 "R470ohm(1%)" H 9520 10505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 10550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRTR-ND/727256" H 9450 10550 50  0001 C CNN
+F 4 "311-470HRTR-ND" H 9450 10550 50  0001 C CNN "dk_pn"
+F 5 "RC0603FR-07470RL" H 9450 10550 50  0001 C CNN "pn"
+	1    9450 10550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9050 10550 9625 10550
+	9050 10550 9300 10550
 Connection ~ 9000 1425
 Text GLabel 9000 1050 0    50   Input ~ 0
 EXT_5V
@@ -316,14 +304,14 @@ P 10225 10550
 F 0 "D2" V 10263 10433 50  0000 R CNN
 F 1 "LED-BLUE" V 10172 10433 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 10225 10550 50  0001 C CNN
-F 3 "" H 10225 10550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C170TBKT/160-1579-2-ND/388527" H 10225 10550 50  0001 C CNN
 F 4 "FC-A2012BK-470H2 " V 10225 10550 50  0001 C CNN "dk_pn"
-F 5 "FC-A2012BK-470H2 " V 10225 10550 50  0001 C CNN "pn"
+F 5 "160-1579-2-ND" V 10225 10550 50  0001 C CNN "pn"
 	1    10225 10550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10075 10550 9925 10550
+	10075 10550 9600 10550
 $Comp
 L power:GND #PWR0110
 U 1 1 5C51AAB5
@@ -509,10 +497,10 @@ Wire Notes Line
 Wire Notes Line
 	8000 4900 8000 3075
 $Comp
-L Connector:USB_B_Micro J1
+L Connector:USB_B_Micro USB1
 U 1 1 5C61F17B
 P 12100 2050
-F 0 "J1" H 12155 2517 50  0000 C CNN
+F 0 "USB1" H 12155 2517 50  0000 C CNN
 F 1 "USB_B_Micro" H 12155 2426 50  0000 C CNN
 F 2 "Connfly:DS1105-12" H 12250 2000 50  0001 C CNN
 F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2017/9/6/DS1105-12.pdf" H 12250 2000 50  0001 C CNN
@@ -1525,10 +1513,10 @@ F 3 "" H 15425 10275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J3
+L Connector_Generic:Conn_02x08_Odd_Even J2
 U 1 1 5D8FF691
 P 4325 9300
-F 0 "J3" H 4375 9817 50  0000 C CNN
+F 0 "J2" H 4375 9817 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 4375 9726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4325 9300 50  0001 C CNN
 F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4325 9300 50  0001 C CNN
@@ -1544,4 +1532,16 @@ Wire Wire Line
 	4125 9600 3400 9600
 Wire Wire Line
 	3400 9600 3400 8725
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J1
+U 1 1 5D9928C5
+P 4300 7475
+F 0 "J1" H 4350 7992 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 4350 7901 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4300 7475 50  0001 C CNN
+F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4300 7475 50  0001 C CNN
+F 4 "PC104-003-2*8-B-1" H 4300 7475 50  0001 C CNN "pn"
+	1    4300 7475
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
