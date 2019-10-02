@@ -35,16 +35,14 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5D8B5B52
-P 3400 6875
-F 0 "#PWR0101" H 3400 6725 50  0001 C CNN
-F 1 "+3.3V" H 3415 7048 50  0000 C CNN
-F 2 "" H 3400 6875 50  0001 C CNN
-F 3 "" H 3400 6875 50  0001 C CNN
-	1    3400 6875
+P 5175 6900
+F 0 "#PWR0101" H 5175 6750 50  0001 C CNN
+F 1 "+3.3V" H 5190 7073 50  0000 C CNN
+F 2 "" H 5175 6900 50  0001 C CNN
+F 3 "" H 5175 6900 50  0001 C CNN
+	1    5175 6900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 7875 4100 7875
 $Comp
 L power:GND #PWR0102
 U 1 1 5D8B5B9E
@@ -61,12 +59,12 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR0103
 U 1 1 5D8B5BF6
-P 5150 8800
-F 0 "#PWR0103" H 5150 8650 50  0001 C CNN
-F 1 "+3.3V" H 5165 8973 50  0000 C CNN
-F 2 "" H 5150 8800 50  0001 C CNN
-F 3 "" H 5150 8800 50  0001 C CNN
-	1    5150 8800
+P 3400 8725
+F 0 "#PWR0103" H 3400 8575 50  0001 C CNN
+F 1 "+3.3V" H 3415 8898 50  0000 C CNN
+F 2 "" H 3400 8725 50  0001 C CNN
+F 3 "" H 3400 8725 50  0001 C CNN
+	1    3400 8725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -85,13 +83,7 @@ F 3 "" H 3400 10325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4625 9700 5150 9700
-Wire Wire Line
-	5150 9700 5150 8800
-Wire Wire Line
 	5175 8250 5175 7875
-Wire Wire Line
-	3400 7875 3400 6875
 Text GLabel 4125 9200 0    50   Input ~ 0
 I2C_SDA
 Text GLabel 4625 9000 2    50   Input ~ 0
@@ -110,7 +102,7 @@ Text GLabel 4625 9500 2    50   Input ~ 0
 IO0
 Text GLabel 4125 9100 0    50   Input ~ 0
 IO1
-Text GLabel 4125 9600 0    50   Input ~ 0
+Text GLabel 4625 9700 2    50   Input ~ 0
 IO2
 Text GLabel 4625 9100 2    50   Input ~ 0
 IO3
@@ -136,7 +128,7 @@ Text GLabel 4600 7175 2    50   Input ~ 0
 I36
 Text GLabel 4100 7175 0    50   Input ~ 0
 I39
-Text GLabel 4600 7775 2    50   Input ~ 0
+Text GLabel 4100 7875 0    50   Input ~ 0
 EXT_5V
 Text GLabel 2575 2900 0    50   Input ~ 0
 EN
@@ -1544,4 +1536,12 @@ F 4 "PC104-003-2*8-B-1" H 4325 9300 50  0001 C CNN "pn"
 	1    4325 9300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4600 7775 5175 7775
+Wire Wire Line
+	5175 7775 5175 6900
+Wire Wire Line
+	4125 9600 3400 9600
+Wire Wire Line
+	3400 9600 3400 8725
 $EndSCHEMATC

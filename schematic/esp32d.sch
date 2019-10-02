@@ -102,7 +102,7 @@ Text GLabel 4625 9500 2    50   Input ~ 0
 IO0
 Text GLabel 4125 9100 0    50   Input ~ 0
 IO1
-Text GLabel 4625 9700 2    50   Input ~ 0
+Text GLabel 4625 9600 2    50   Input ~ 0
 IO2
 Text GLabel 4625 9100 2    50   Input ~ 0
 IO3
@@ -1511,7 +1511,7 @@ F 6 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDTR
 	1    9150 8775
 	1    0    0    -1  
 $EndComp
-Text GLabel 4625 9600 2    50   Input ~ 0
+Text GLabel 4625 9700 2    50   Input ~ 0
 EN
 $Comp
 L undo:DizzyBITLogo U5
