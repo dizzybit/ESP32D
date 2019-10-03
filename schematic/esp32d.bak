@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:esp32d-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -304,9 +304,9 @@ P 10225 10550
 F 0 "D2" V 10263 10433 50  0000 R CNN
 F 1 "LED-BLUE" V 10172 10433 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 10225 10550 50  0001 C CNN
-F 3 "" H 10225 10550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C170TBKT/160-1579-2-ND/388527" H 10225 10550 50  0001 C CNN
 F 4 "FC-A2012BK-470H2 " V 10225 10550 50  0001 C CNN "dk_pn"
-F 5 "FC-A2012BK-470H2 " V 10225 10550 50  0001 C CNN "pn"
+F 5 "160-1579-2-ND" V 10225 10550 50  0001 C CNN "pn"
 	1    10225 10550
 	-1   0    0    1   
 $EndComp
@@ -1212,26 +1212,6 @@ F 3 "" H 13050 10175 60  0000 C CNN
 	1    13050 10200
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:DMG2307L-7 Q3
-U 1 1 5D8CC86D
-P 13475 1450
-F 0 "Q3" H 13904 1596 50  0000 L CNN
-F 1 "DMG2307L-7" H 13904 1505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 13925 1400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/DMG2307L-7.pdf" H 13925 1300 50  0001 L CNN
-F 4 "DMG2307L-7DITR-ND" H 13475 1450 50  0001 C CNN "dk_pn"
-F 5 "DMG2307L-7" H 13475 1450 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2307L-7/DMG2307L-7DITR-ND/2756043" H 13475 1450 50  0001 C CNN "dk_web"
-F 7 "P-Channel Enhancement MOSFET SOT-23 Diodes Inc DMG2307L-7 P-channel MOSFET Transistor, -2 A, -30 V, 3-Pin SOT23" H 13925 1200 50  0001 L CNN "Description"
-F 8 "1.1" H 13925 1100 50  0001 L CNN "Height"
-F 9 "621-DMG2307L-7" H 13925 1000 50  0001 L CNN "Mouser Part Number"
-F 10 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2307L-7" H 13925 900 50  0001 L CNN "Mouser Price/Stock"
-F 11 "Diodes Inc." H 13925 800 50  0001 L CNN "Manufacturer_Name"
-F 12 "DMG2307L-7" H 13925 700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    13475 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13475 1450 12975 1450
 Wire Wire Line
@@ -1542,6 +1522,23 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4300 7475 50 
 F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4300 7475 50  0001 C CNN
 F 4 "PC104-003-2*8-B-1" H 4300 7475 50  0001 C CNN "pn"
 	1    4300 7475
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:DMG3415UFY4Q-7 Q?
+U 1 1 5D9635B4
+P 13475 1450
+F 0 "Q?" H 13905 1596 50  0000 L CNN
+F 1 "DMG3415UFY4Q-7" H 13905 1505 50  0000 L CNN
+F 2 "DMG3415UFY47" H 13925 1400 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/DMG3415UFY4Q-7.pdf" H 13925 1300 50  0001 L CNN
+F 4 "MOSFET P-Ch -16V Enh FET 8Vgss -12A 0.65W" H 13925 1200 50  0001 L CNN "Description"
+F 5 "" H 13925 1100 50  0001 L CNN "Height"
+F 6 "621-DMG3415UFY4Q-7" H 13925 1000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG3415UFY4Q-7" H 13925 900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 13925 800 50  0001 L CNN "Manufacturer_Name"
+F 9 "DMG3415UFY4Q-7" H 13925 700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    13475 1450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

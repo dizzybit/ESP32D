@@ -208,10 +208,10 @@ U 1 1 5C49E1F2
 P 9850 1425
 F 0 "U1" H 9850 1667 50  0000 C CNN
 F 1 "AMS1117-3.3" H 9850 1576 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9850 1625 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2-HandSoldering" H 9850 1625 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/diodes-incorporated/AZ1117EH-3.3TRG1/AZ1117EH-3.3TRG1DITR-ND/5001329" H 9950 1175 50  0001 C CNN
-F 4 "AZ1117EH-3.3TRG1DITR-ND" H 9850 1425 50  0001 C CNN "pn"
-F 5 "AZ1117EH-3.3TRG1" H 9850 1425 50  0001 C CNN "dk_pn"
+F 4 "AZ1117EH-3.3TRG1" H 9850 1425 50  0001 C CNN "dk_pn"
+F 5 "AZ1117EH-3.3TRG1DITR-ND" H 9850 1425 50  0001 C CNN "pn"
 	1    9850 1425
 	1    0    0    -1  
 $EndComp
@@ -247,19 +247,6 @@ Wire Wire Line
 	10350 1950 10350 2325
 Wire Wire Line
 	10350 1425 10350 1650
-$Comp
-L Device:C C4
-U 1 1 5C4D73C2
-P 9000 1800
-F 0 "C4" H 9115 1846 50  0000 L CNN
-F 1 "C22uF/10V(20%)" H 9115 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9038 1650 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61A226ME15D/490-10476-2-ND/5027561" H 9000 1800 50  0001 C CNN
-F 4 "GRM188R61A226ME15D" H 9000 1800 50  0001 C CNN "pn"
-F 5 "490-10476-2-ND" H 9000 1800 50  0001 C CNN "dk_pn"
-	1    9000 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 1425 9000 1425
 Wire Wire Line
@@ -333,19 +320,6 @@ Wire Notes Line
 	8000 3050 8000 675 
 Text Notes 8075 850  0    100  ~ 0
 POWER SUPPLY
-$Comp
-L Device:C C5
-U 1 1 5C54E28E
-P 10350 1800
-F 0 "C5" H 10465 1846 50  0000 L CNN
-F 1 "C22uF/10V(20%)" H 10465 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10388 1650 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61A226ME15D/490-10476-2-ND/5027561" H 10350 1800 50  0001 C CNN
-F 4 "GRM188R61A226ME15D" H 10350 1800 50  0001 C CNN "pn"
-F 5 "490-10476-2-ND" H 10350 1800 50  0001 C CNN "dk_pn"
-	1    10350 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3175 1850 3175 2700
 Wire Wire Line
@@ -430,7 +404,7 @@ U 1 1 5C5E2009
 P 9175 3750
 F 0 "SW1" H 9175 4035 50  0000 C CNN
 F 1 "SW_Push" H 9175 3944 50  0000 C CNN
-F 2 "SamacSys_Parts:TL3340" H 9175 3950 50  0001 C CNN
+F 2 "Button_Switch_SMD:TL3340-HandSoldering" H 9175 3950 50  0001 C CNN
 F 3 "" H 9175 3950 50  0001 C CNN
 	1    9175 3750
 	1    0    0    -1  
@@ -456,15 +430,13 @@ L SamacSys_Parts:SS8050-G Q1
 U 1 1 5CA672F6
 P 13675 3025
 F 0 "Q1" H 14212 3071 50  0000 L CNN
-F 1 "SS8050-G" H 14212 2980 50  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 14225 2875 50  0001 L CNN
-F 3 "https://www.digikey.com/product-detail/en/comchip-technology/SS8050-G/641-1790-2-ND/6138901" H 14225 2775 50  0001 L CNN
-F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 14225 2675 50  0001 L CNN "Description"
-F 5 "1.15" H 14225 2575 50  0001 L CNN "Height"
-F 6 "750-SS8050-G" H 14225 2475 50  0001 L CNN "Mouser Part Number"
-F 7 "Comchip Technology" H 14225 2375 50  0001 L CNN "Manufacturer_Name"
-F 8 "SS8050-G" H 14225 2275 50  0001 L CNN "pn"
-F 9 "641-1790-2-ND" H 13675 3025 50  0001 C CNN "dk_pn"
+F 1 "SS8050DTA" H 14212 2980 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 14225 2875 50  0001 L CNN
+F 3 "https://www.digikey.com/product-detail/en/on-semiconductor/SS8050DTA/SS8050DTACT-ND/4213850" H 14225 2775 50  0001 L CNN
+F 4 "SS8050DTACT-ND" H 13675 3025 50  0001 C CNN "dk_pn"
+F 5 "SS8050DTA" H 14225 2275 50  0001 L CNN "pn"
+F 6 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 14225 2675 50  0001 L CNN "Description"
+F 7 "1.15" H 14225 2575 50  0001 L CNN "Height"
 	1    13675 3025
 	1    0    0    -1  
 $EndComp
@@ -474,19 +446,6 @@ Wire Wire Line
 	14600 2725 14075 2725
 Text GLabel 14650 4375 2    50   Input ~ 0
 IO0
-$Comp
-L Device:R R9
-U 1 1 5CA95234
-P 13025 4000
-F 0 "R9" V 13025 3925 50  0000 L CNN
-F 1 "R10K(5%)" V 13095 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12955 4000 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-0710KL/311-10KJRTR-ND/726418" H 13025 4000 50  0001 C CNN
-F 4 "RHM10KDTR-ND" H 13025 4000 50  0001 C CNN "dk_pn"
-F 5 "ESR03EZPJ103" H 13025 4000 50  0001 C CNN "pn"
-	1    13025 4000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	13175 3025 13675 3025
 Wire Wire Line
@@ -529,23 +488,6 @@ Wire Notes Line
 	650  11050 650  6250
 Wire Notes Line
 	650  6250 7975 6250
-$Comp
-L SamacSys_Parts:SS8050-G Q2
-U 1 1 5CB15A37
-P 13675 4000
-F 0 "Q2" H 14212 4046 50  0000 L CNN
-F 1 "SS8050-G" H 14212 3955 50  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 14225 3850 50  0001 L CNN
-F 3 "https://www.digikey.com/product-detail/en/comchip-technology/SS8050-G/641-1790-2-ND/6138901" H 14225 3750 50  0001 L CNN
-F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 14225 3650 50  0001 L CNN "Description"
-F 5 "1.15" H 14225 3550 50  0001 L CNN "Height"
-F 6 "750-SS8050-G" H 14225 3450 50  0001 L CNN "Mouser Part Number"
-F 7 "Comchip Technology" H 14225 3350 50  0001 L CNN "Manufacturer_Name"
-F 8 "SS8050-G" H 14225 3250 50  0001 L CNN "pn"
-F 9 "641-1790-2-ND" H 13675 4000 50  0001 C CNN "dk_pn"
-	1    13675 4000
-	1    0    0    1   
-$EndComp
 Text GLabel 5100 1725 2    50   Input ~ 0
 +3.3V
 Wire Wire Line
@@ -707,10 +649,8 @@ U 1 1 5D151F97
 P 13025 3025
 F 0 "R8" V 13025 2950 50  0000 L CNN
 F 1 "R10K(5%)" V 13095 2980 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12955 3025 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-0710KL/311-10KJRTR-ND/726418" H 13025 3025 50  0001 C CNN
-F 4 "RHM10KDTR-ND" H 13025 3025 50  0001 C CNN "dk_pn"
-F 5 "ESR03EZPJ103" H 13025 3025 50  0001 C CNN "pn"
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 12955 3025 50  0001 C CNN
+F 3 "" H 13025 3025 50  0001 C CNN
 	1    13025 3025
 	0    -1   -1   0   
 $EndComp
@@ -723,26 +663,6 @@ F 1 "R10K(5%)" H 5600 2050 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5455 2000 50  0001 C CNN
 F 3 "" H 5525 2000 50  0001 C CNN
 	1    5525 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SamacSys_Parts:DMG2307L-7 Q3
-U 1 1 5D8CC86D
-P 13475 1450
-F 0 "Q3" H 13904 1596 50  0000 L CNN
-F 1 "DMG2307L-7" H 13904 1505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 13925 1400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/DMG2307L-7.pdf" H 13925 1300 50  0001 L CNN
-F 4 "DMG2307L-7DITR-ND" H 13475 1450 50  0001 C CNN "dk_pn"
-F 5 "DMG2307L-7" H 13475 1450 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2307L-7/DMG2307L-7DITR-ND/2756043" H 13475 1450 50  0001 C CNN "dk_web"
-F 7 "P-Channel Enhancement MOSFET SOT-23 Diodes Inc DMG2307L-7 P-channel MOSFET Transistor, -2 A, -30 V, 3-Pin SOT23" H 13925 1200 50  0001 L CNN "Description"
-F 8 "1.1" H 13925 1100 50  0001 L CNN "Height"
-F 9 "621-DMG2307L-7" H 13925 1000 50  0001 L CNN "Mouser Part Number"
-F 10 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2307L-7" H 13925 900 50  0001 L CNN "Mouser Price/Stock"
-F 11 "Diodes Inc." H 13925 800 50  0001 L CNN "Manufacturer_Name"
-F 12 "DMG2307L-7" H 13925 700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    13475 1450
 	1    0    0    -1  
 $EndComp
 Text GLabel 14000 875  2    50   Input ~ 0
@@ -769,7 +689,7 @@ U 1 1 5D8F2D56
 P 9525 5950
 F 0 "U4" V 9571 5609 50  0000 R CNN
 F 1 "MCP73831-2-OT" V 9480 5609 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9575 5700 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9575 5700 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 9375 5900 50  0001 C CNN
 F 4 "MCP73831T-2ATI/OTCT-ND" H 9525 5950 50  0001 C CNN "dk_pn"
 F 5 "MCP73831T-2ATI/OT" H 9525 5950 50  0001 C CNN "pn"
@@ -783,9 +703,8 @@ U 1 1 5D8F337C
 P 8275 5725
 F 0 "J4" H 8195 5400 50  0000 C CNN
 F 1 "Conn_01x02" H 8195 5491 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 8275 5725 50  0001 C CNN
-F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2017/8/30/DS1066-06.pdf" H 8275 5725 50  0001 C CNN
-F 4 "DS1066-06-2-M-R-B-1-R" H 8275 5725 50  0001 C CNN "pn"
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 8275 5725 50  0001 C CNN
+F 3 "" H 8275 5725 50  0001 C CNN
 	1    8275 5725
 	-1   0    0    1   
 $EndComp
@@ -879,33 +798,6 @@ Wire Wire Line
 	10650 5125 10650 5350
 Wire Wire Line
 	10650 5350 10350 5350
-$Comp
-L Device:R R11
-U 1 1 5D95C717
-P 9625 6600
-F 0 "R11" V 9525 6250 50  0000 L CNN
-F 1 "R4.7K" V 9525 6425 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9555 6600 50  0001 C CNN
-F 3 "" H 9625 6600 50  0001 C CNN
-F 4 "311-4.7KGRTR-ND" H 9625 6600 50  0001 C CNN "dk_pn"
-F 5 "RC0603JR-074K7L" H 9625 6600 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRTR-ND/726785" H 9625 6600 50  0001 C CNN "dk_web"
-	1    9625 6600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5D95CE1C
-P 10650 6325
-F 0 "C9" H 10450 6325 50  0000 L CNN
-F 1 "C4.7uF/6.3V(20%)" V 10775 5950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10688 6175 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475MQ8NNNC/1276-1907-2-ND/3887565" H 10650 6325 50  0001 C CNN
-F 4 "1276-1907-2-ND" H 10650 6325 50  0001 C CNN "dk_pn"
-F 5 "CL10A475MQ8NNNC" H 10650 6325 50  0001 C CNN "pn"
-	1    10650 6325
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0125
 U 1 1 5D962C00
@@ -1078,7 +970,6 @@ F 0 "C2" V 4502 2000 50  0000 C CNN
 F 1 "C22uF/10V(10%)" V 4411 2000 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4288 1850 50  0001 C CNN
 F 3 "" H 4250 2000 50  0001 C CNN
-F 4 "K104K15X7RF5TL2" H 4250 2000 50  0001 C CNN "pn"
 	1    4250 2000
 	1    0    0    -1  
 $EndComp
@@ -1099,110 +990,210 @@ F 3 "" H 9150 8825 60  0000 C CNN
 	1    9150 8775
 	1    0    0    -1  
 $EndComp
-Text GLabel 12575 4850 0    50   Input ~ 0
+Text GLabel 12825 6050 0    50   Input ~ 0
 RTS
-Text GLabel 12575 4950 0    50   Input ~ 0
+Text GLabel 12825 6150 0    50   Input ~ 0
 IO1
-Text GLabel 12575 5050 0    50   Input ~ 0
+Text GLabel 12825 6250 0    50   Input ~ 0
 IO3
-Text GLabel 12575 5150 0    50   Input ~ 0
+Text GLabel 12825 6350 0    50   Input ~ 0
 DTR
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 5D96FC5E
-P 12250 5525
-F 0 "#PWR?" H 12250 5275 50  0001 C CNN
-F 1 "GND" V 12255 5397 50  0000 R CNN
-F 2 "" H 12250 5525 50  0001 C CNN
-F 3 "" H 12250 5525 50  0001 C CNN
-	1    12250 5525
+P 12475 6850
+F 0 "#PWR0114" H 12475 6600 50  0001 C CNN
+F 1 "GND" V 12480 6722 50  0000 R CNN
+F 2 "" H 12475 6850 50  0001 C CNN
+F 3 "" H 12475 6850 50  0001 C CNN
+	1    12475 6850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12250 5250 12575 5250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 5D97416C
-P 13600 5525
-F 0 "#PWR?" H 13600 5275 50  0001 C CNN
-F 1 "GND" V 13605 5397 50  0000 R CNN
-F 2 "" H 13600 5525 50  0001 C CNN
-F 3 "" H 13600 5525 50  0001 C CNN
-	1    13600 5525
+P 14325 6850
+F 0 "#PWR0115" H 14325 6600 50  0001 C CNN
+F 1 "GND" V 14330 6722 50  0000 R CNN
+F 2 "" H 14325 6850 50  0001 C CNN
+F 3 "" H 14325 6850 50  0001 C CNN
+	1    14325 6850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13600 5525 13600 5425
-Text GLabel 14325 4925 0    50   Input ~ 0
+Text GLabel 13625 6250 2    50   Input ~ 0
 +3.3V
-Text GLabel 14325 5125 0    50   Input ~ 0
+Text GLabel 13625 6150 2    50   Input ~ 0
 EXT_5V
-Text GLabel 14325 5225 0    50   Input ~ 0
+Text GLabel 13625 6050 2    50   Input ~ 0
 VBUS
-$Comp
-L Connector_Generic:Conn_01x09 J?
-U 1 1 5D9DDF35
-P 12775 5050
-F 0 "J?" H 12855 5092 50  0000 L CNN
-F 1 "Conn_01x09" H 12855 5001 50  0000 L CNN
-F 2 "" H 12775 5050 50  0001 C CNN
-F 3 "~" H 12775 5050 50  0001 C CNN
-	1    12775 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x09 J?
-U 1 1 5D9E3C4B
-P 14525 5125
-F 0 "J?" H 14605 5167 50  0000 L CNN
-F 1 "Conn_01x09" H 14605 5076 50  0000 L CNN
-F 2 "" H 14525 5125 50  0001 C CNN
-F 3 "~" H 14525 5125 50  0001 C CNN
-	1    14525 5125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12575 5350 12250 5350
-Connection ~ 12250 5350
-Wire Wire Line
-	12250 5350 12250 5250
-Wire Wire Line
-	12575 5450 12250 5450
-Wire Wire Line
-	12250 5350 12250 5450
-Connection ~ 12250 5450
-Wire Wire Line
-	12250 5450 12250 5525
-Wire Wire Line
-	12575 4750 12250 4750
-Wire Wire Line
-	12250 4750 12250 5250
-Connection ~ 12250 5250
-Wire Wire Line
-	12575 4650 12250 4650
-Wire Wire Line
-	12250 4650 12250 4750
-Connection ~ 12250 4750
-Wire Wire Line
-	14325 5525 13600 5525
-Connection ~ 13600 5525
-Wire Wire Line
-	14325 5425 13600 5425
-Connection ~ 13600 5425
-Wire Wire Line
-	14325 5325 13600 5325
-Connection ~ 13600 5325
-Wire Wire Line
-	13600 5325 13600 5425
-Text GLabel 14325 4825 0    50   Input ~ 0
+Text GLabel 13625 6350 2    50   Input ~ 0
 +3.3V
+$Comp
+L Altera:DizzyBit-MicroUSB-UART U6
+U 1 1 5D95EE35
+P 13225 5800
+F 0 "U6" H 13225 5975 50  0000 C CNN
+F 1 "DizzyBit-MicroUSB-UART" H 13225 5884 50  0000 C CNN
+F 2 "DizzyBit:DizzyBit-MicroUSB-UART" H 13125 5900 50  0001 C CNN
+F 3 "" H 13225 5800 50  0001 C CNN
+	1    13225 5800
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	14325 5025 13600 5025
-Connection ~ 13600 5025
+	12825 6650 12475 6650
 Wire Wire Line
-	13600 5025 13600 5325
+	12475 6650 12475 6850
 Wire Wire Line
-	14325 4725 13600 4725
+	12475 6650 12475 6550
 Wire Wire Line
-	13600 4725 13600 5025
+	12475 5850 12825 5850
+Connection ~ 12475 6650
+Wire Wire Line
+	12825 5950 12475 5950
+Connection ~ 12475 5950
+Wire Wire Line
+	12475 5950 12475 5850
+Wire Wire Line
+	12825 6450 12475 6450
+Connection ~ 12475 6450
+Wire Wire Line
+	12475 6450 12475 5950
+Wire Wire Line
+	12825 6550 12475 6550
+Connection ~ 12475 6550
+Wire Wire Line
+	12475 6550 12475 6450
+Wire Wire Line
+	14325 6850 14325 6650
+Wire Wire Line
+	14325 5850 13625 5850
+Wire Wire Line
+	13625 5950 14325 5950
+Connection ~ 14325 5950
+Wire Wire Line
+	14325 5950 14325 5850
+Wire Wire Line
+	13625 6450 14325 6450
+Connection ~ 14325 6450
+Wire Wire Line
+	14325 6450 14325 5950
+Wire Wire Line
+	13625 6550 14325 6550
+Connection ~ 14325 6550
+Wire Wire Line
+	14325 6550 14325 6450
+Wire Wire Line
+	13625 6650 14325 6650
+Connection ~ 14325 6650
+Wire Wire Line
+	14325 6650 14325 6550
+$Comp
+L Device:R R9
+U 1 1 5D98F12C
+P 13025 4000
+F 0 "R9" V 13025 3925 50  0000 L CNN
+F 1 "R10K(5%)" V 13095 3955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 12955 4000 50  0001 C CNN
+F 3 "" H 13025 4000 50  0001 C CNN
+	1    13025 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:SS8050-G Q2
+U 1 1 5D98FAA1
+P 13675 4000
+F 0 "Q2" H 14212 4046 50  0000 L CNN
+F 1 "SS8050DTA" H 14212 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 14225 3850 50  0001 L CNN
+F 3 "https://www.digikey.com/product-detail/en/on-semiconductor/SS8050DTA/SS8050DTACT-ND/4213850" H 14225 3750 50  0001 L CNN
+F 4 "SS8050DTACT-ND" H 13675 4000 50  0001 C CNN "dk_pn"
+F 5 "SS8050DTA" H 14225 3250 50  0001 L CNN "pn"
+F 6 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 14225 3650 50  0001 L CNN "Description"
+F 7 "1.15" H 14225 3550 50  0001 L CNN "Height"
+	1    13675 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D9905D8
+P 9000 1800
+F 0 "C4" V 9252 1800 50  0000 C CNN
+F 1 "C22uF/10V(10%)" V 9161 1800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9038 1650 50  0001 C CNN
+F 3 "" H 9000 1800 50  0001 C CNN
+	1    9000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5D9907DA
+P 10350 1800
+F 0 "C5" V 10602 1800 50  0000 C CNN
+F 1 "C22uF/10V(10%)" V 10511 1800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 10388 1650 50  0001 C CNN
+F 3 "" H 10350 1800 50  0001 C CNN
+	1    10350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:DMG2307L-7 Q3
+U 1 1 5D99DE13
+P 13475 1450
+F 0 "Q3" H 13904 1596 50  0000 L CNN
+F 1 "DMG2307L-7" H 13904 1505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23W_Handsoldering" H 13925 1400 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/DMG2307L-7.pdf" H 13925 1300 50  0001 L CNN
+F 4 "P-Channel Enhancement MOSFET SOT-23 Diodes Inc DMG2307L-7 P-channel MOSFET Transistor, -2 A, -30 V, 3-Pin SOT23" H 13925 1200 50  0001 L CNN "Description"
+F 5 "1.1" H 13925 1100 50  0001 L CNN "Height"
+F 6 "621-DMG2307L-7" H 13925 1000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2307L-7" H 13925 900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 13925 800 50  0001 L CNN "Manufacturer_Name"
+F 9 "DMG2307L-7" H 13925 700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    13475 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5D9AC12E
+P 9625 6600
+F 0 "R11" V 9700 6525 50  0000 L CNN
+F 1 "R4.7K" V 9525 6500 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9555 6600 50  0001 C CNN
+F 3 "" H 9625 6600 50  0001 C CNN
+	1    9625 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5D9ACF79
+P 10650 6325
+F 0 "C9" V 10902 6325 50  0000 C CNN
+F 1 "C4.7uF/6.3V(20%)" V 10811 6325 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 10688 6175 50  0001 C CNN
+F 3 "" H 10650 6325 50  0001 C CNN
+	1    10650 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D9AE793
+P 5725 5325
+F 0 "H4" H 5825 5376 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5825 5285 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 5725 5325 50  0001 C CNN
+F 3 "~" H 5725 5325 50  0001 C CNN
+	1    5725 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5D9AE924
+P 5725 5425
+F 0 "#PWR0116" H 5725 5175 50  0001 C CNN
+F 1 "GND" V 5730 5297 50  0000 R CNN
+F 2 "" H 5725 5425 50  0001 C CNN
+F 3 "" H 5725 5425 50  0001 C CNN
+	1    5725 5425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

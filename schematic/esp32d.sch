@@ -523,10 +523,8 @@ F 7 "1727-4825-2-ND" H 13825 1850 50  0001 C CNN "dk_pn"
 	1    13825 1850
 	-1   0    0    1   
 $EndComp
-Text GLabel 14375 1400 2    50   Input ~ 0
+Text GLabel 14375 1850 2    50   Input ~ 0
 EXT_5V
-Wire Wire Line
-	14375 1400 14375 1850
 Wire Wire Line
 	14375 1850 13775 1850
 Wire Wire Line
@@ -1212,26 +1210,6 @@ F 3 "" H 13050 10175 60  0000 C CNN
 	1    13050 10200
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:DMG2307L-7 Q3
-U 1 1 5D8CC86D
-P 13475 1450
-F 0 "Q3" H 13904 1596 50  0000 L CNN
-F 1 "DMG2307L-7" H 13904 1505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 13925 1400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/DMG2307L-7.pdf" H 13925 1300 50  0001 L CNN
-F 4 "DMG2307L-7DITR-ND" H 13475 1450 50  0001 C CNN "dk_pn"
-F 5 "DMG2307L-7" H 13475 1450 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2307L-7/DMG2307L-7DITR-ND/2756043" H 13475 1450 50  0001 C CNN "dk_web"
-F 7 "P-Channel Enhancement MOSFET SOT-23 Diodes Inc DMG2307L-7 P-channel MOSFET Transistor, -2 A, -30 V, 3-Pin SOT23" H 13925 1200 50  0001 L CNN "Description"
-F 8 "1.1" H 13925 1100 50  0001 L CNN "Height"
-F 9 "621-DMG2307L-7" H 13925 1000 50  0001 L CNN "Mouser Part Number"
-F 10 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2307L-7" H 13925 900 50  0001 L CNN "Mouser Price/Stock"
-F 11 "Diodes Inc." H 13925 800 50  0001 L CNN "Manufacturer_Name"
-F 12 "DMG2307L-7" H 13925 700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    13475 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13475 1450 12975 1450
 Wire Wire Line
@@ -1542,6 +1520,23 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4300 7475 50 
 F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4300 7475 50  0001 C CNN
 F 4 "PC104-003-2*8-B-1" H 4300 7475 50  0001 C CNN "pn"
 	1    4300 7475
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:DMG2307L-7 Q?
+U 1 1 5D999E77
+P 13475 1450
+F 0 "Q?" H 13904 1596 50  0000 L CNN
+F 1 "DMG2307L-7" H 13904 1505 50  0000 L CNN
+F 2 "SOT96P240X110-3N" H 13925 1400 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/DMG2307L-7.pdf" H 13925 1300 50  0001 L CNN
+F 4 "P-Channel Enhancement MOSFET SOT-23 Diodes Inc DMG2307L-7 P-channel MOSFET Transistor, -2 A, -30 V, 3-Pin SOT23" H 13925 1200 50  0001 L CNN "Description"
+F 5 "1.1" H 13925 1100 50  0001 L CNN "Height"
+F 6 "621-DMG2307L-7" H 13925 1000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2307L-7" H 13925 900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 13925 800 50  0001 L CNN "Manufacturer_Name"
+F 9 "DMG2307L-7" H 13925 700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    13475 1450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
