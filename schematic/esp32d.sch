@@ -14,109 +14,105 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4625 9400 2    50   Input ~ 0
+Text GLabel 2825 7275 0    50   Input ~ 0
 IO16
-Text GLabel 4125 9300 0    50   Input ~ 0
+Text GLabel 5825 7650 0    50   Input ~ 0
 VSPI_CLK
-Text GLabel 4125 9000 0    50   Input ~ 0
+Text GLabel 5825 7550 0    50   Input ~ 0
 VSPI_MOSI
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5D8B5B52
-P 5175 6900
-F 0 "#PWR0101" H 5175 6750 50  0001 C CNN
-F 1 "+3.3V" H 5190 7073 50  0000 C CNN
-F 2 "" H 5175 6900 50  0001 C CNN
-F 3 "" H 5175 6900 50  0001 C CNN
-	1    5175 6900
+P 4050 6850
+F 0 "#PWR0101" H 4050 6700 50  0001 C CNN
+F 1 "+3.3V" H 4065 7023 50  0000 C CNN
+F 2 "" H 4050 6850 50  0001 C CNN
+F 3 "" H 4050 6850 50  0001 C CNN
+	1    4050 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5D8B5B9E
-P 5175 8250
-F 0 "#PWR0102" H 5175 8000 50  0001 C CNN
-F 1 "GND" H 5180 8077 50  0000 C CNN
-F 2 "" H 5175 8250 50  0001 C CNN
-F 3 "" H 5175 8250 50  0001 C CNN
-	1    5175 8250
+P 2100 8125
+F 0 "#PWR0102" H 2100 7875 50  0001 C CNN
+F 1 "GND" H 2105 7952 50  0000 C CNN
+F 2 "" H 2100 8125 50  0001 C CNN
+F 3 "" H 2100 8125 50  0001 C CNN
+	1    2100 8125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 7875 5175 7875
 $Comp
 L power:+3.3V #PWR0103
 U 1 1 5D8B5BF6
-P 3400 8725
-F 0 "#PWR0103" H 3400 8575 50  0001 C CNN
-F 1 "+3.3V" H 3415 8898 50  0000 C CNN
-F 2 "" H 3400 8725 50  0001 C CNN
-F 3 "" H 3400 8725 50  0001 C CNN
-	1    3400 8725
+P 7050 6775
+F 0 "#PWR0103" H 7050 6625 50  0001 C CNN
+F 1 "+3.3V" H 7065 6948 50  0000 C CNN
+F 2 "" H 7050 6775 50  0001 C CNN
+F 3 "" H 7050 6775 50  0001 C CNN
+	1    7050 6775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4125 9700 3400 9700
+	5825 7950 5100 7950
 Wire Wire Line
-	3400 9700 3400 10325
+	5100 7950 5100 8250
 $Comp
 L power:GND #PWR0104
 U 1 1 5D8B5C66
-P 3400 10325
-F 0 "#PWR0104" H 3400 10075 50  0001 C CNN
-F 1 "GND" H 3405 10152 50  0000 C CNN
-F 2 "" H 3400 10325 50  0001 C CNN
-F 3 "" H 3400 10325 50  0001 C CNN
-	1    3400 10325
+P 5100 8250
+F 0 "#PWR0104" H 5100 8000 50  0001 C CNN
+F 1 "GND" H 5105 8077 50  0000 C CNN
+F 2 "" H 5100 8250 50  0001 C CNN
+F 3 "" H 5100 8250 50  0001 C CNN
+	1    5100 8250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5175 8250 5175 7875
-Text GLabel 4125 9200 0    50   Input ~ 0
+Text GLabel 5825 7450 0    50   Input ~ 0
 I2C_SDA
-Text GLabel 4625 9000 2    50   Input ~ 0
+Text GLabel 6325 7450 2    50   Input ~ 0
 I2C_SCL
-Text GLabel 4100 7775 0    50   Input ~ 0
+Text GLabel 3325 7475 2    50   Input ~ 0
 HSPI_MISO
-Text GLabel 4100 7575 0    50   Input ~ 0
+Text GLabel 2825 7475 0    50   Input ~ 0
 HSPI_MOSI
-Text GLabel 4100 7475 0    50   Input ~ 0
+Text GLabel 2825 7575 0    50   Input ~ 0
 HSPI_CLK
-Text GLabel 4625 9200 2    50   Input ~ 0
+Text GLabel 6325 7550 2    50   Input ~ 0
 VSPI_MISO
-Text GLabel 4125 9400 0    50   Input ~ 0
+Text GLabel 3325 7275 2    50   Input ~ 0
 IO17
-Text GLabel 4625 9500 2    50   Input ~ 0
+Text GLabel 6325 7750 2    50   Input ~ 0
 IO0
-Text GLabel 4125 9100 0    50   Input ~ 0
+Text GLabel 6325 7350 2    50   Input ~ 0
 IO1
-Text GLabel 4625 9600 2    50   Input ~ 0
+Text GLabel 5825 7850 0    50   Input ~ 0
 IO2
-Text GLabel 4625 9100 2    50   Input ~ 0
+Text GLabel 5825 7350 0    50   Input ~ 0
 IO3
-Text GLabel 4125 9500 0    50   Input ~ 0
+Text GLabel 5825 7750 0    50   Input ~ 0
 IO4
-Text GLabel 4625 9300 2    50   Input ~ 0
+Text GLabel 6325 7650 2    50   Input ~ 0
 IO5
-Text GLabel 4100 7675 0    50   Input ~ 0
+Text GLabel 3325 7575 2    50   Input ~ 0
 IO15
-Text GLabel 4600 7475 2    50   Input ~ 0
+Text GLabel 2825 7375 0    50   Input ~ 0
 IO25
-Text GLabel 4100 7375 0    50   Input ~ 0
+Text GLabel 2825 7675 0    50   Input ~ 0
 IO26
-Text GLabel 4600 7575 2    50   Input ~ 0
+Text GLabel 2825 7775 0    50   Input ~ 0
 IO27
-Text GLabel 4600 7375 2    50   Input ~ 0
+Text GLabel 3325 7675 2    50   Input ~ 0
 IO32
-Text GLabel 4100 7275 0    50   Input ~ 0
+Text GLabel 3325 7375 2    50   Input ~ 0
 IO33
-Text GLabel 4600 7275 2    50   Input ~ 0
+Text GLabel 6325 7250 2    50   Input ~ 0
 I34
-Text GLabel 4600 7175 2    50   Input ~ 0
+Text GLabel 3325 7175 2    50   Input ~ 0
 I36
-Text GLabel 4100 7175 0    50   Input ~ 0
+Text GLabel 2825 7175 0    50   Input ~ 0
 I39
-Text GLabel 4100 7875 0    50   Input ~ 0
+Text GLabel 6325 7850 2    50   Input ~ 0
 EXT_5V
 Text GLabel 2575 2900 0    50   Input ~ 0
 EN
@@ -305,7 +301,7 @@ F 0 "D2" V 10263 10433 50  0000 R CNN
 F 1 "LED-BLUE" V 10172 10433 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 10225 10550 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C170TBKT/160-1579-2-ND/388527" H 10225 10550 50  0001 C CNN
-F 4 "FC-A2012BK-470H2 " V 10225 10550 50  0001 C CNN "dk_pn"
+F 4 "LTST-C170TBKT" V 10225 10550 50  0001 C CNN "dk_pn"
 F 5 "160-1579-2-ND" V 10225 10550 50  0001 C CNN "pn"
 	1    10225 10550
 	-1   0    0    1   
@@ -480,11 +476,10 @@ L Switch:SW_Push SW1
 U 1 1 5C5E2009
 P 9175 3750
 F 0 "SW1" H 9175 4035 50  0000 C CNN
-F 1 "SW_Push" H 9175 3944 50  0000 C CNN
-F 2 "Button_Switch_SMD:TL3340" H 9175 3950 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/e-switch/TL3340AF160QG/EG4627TR-ND/1885973" H 9175 3950 50  0001 C CNN
-F 4 "EG4627TR-ND" H 9175 3750 50  0001 C CNN "dk_pn"
-F 5 "TL3340AF160QG" H 9175 3750 50  0001 C CNN "pn"
+F 1 "SW_Push" H 9175 3944 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 9175 3950 50  0001 C CNN
+F 3 "" H 9175 3950 50  0001 C CNN
+F 4 "PTS645VH39-2 LFS" H 9175 3750 50  0001 C CNN "pn"
 	1    9175 3750
 	1    0    0    -1  
 $EndComp
@@ -525,10 +520,6 @@ F 7 "1727-4825-2-ND" H 13825 1850 50  0001 C CNN "dk_pn"
 $EndComp
 Text GLabel 14375 1850 2    50   Input ~ 0
 EXT_5V
-Wire Wire Line
-	14375 1850 13775 1850
-Wire Wire Line
-	13125 1850 12975 1850
 Text GLabel 12800 1400 0    50   Input ~ 0
 VBUS
 Wire Wire Line
@@ -1188,46 +1179,6 @@ F 5 "T5V0S5-7" V 13500 2650 50  0001 C CNN "pn"
 	1    13500 2650
 	0    1    1    0   
 $EndComp
-$Comp
-L pcb:FIDUCIAL-1.5mm FID1
-U 1 1 5D240B4A
-P 12100 10200
-F 0 "FID1" H 12203 10259 50  0000 L CNN
-F 1 "FIDUCIAL-1.5mm" H 12203 10168 50  0000 L CNN
-F 2 "fab:FIDUCIAL-1.5mm" H 12100 10000 60  0001 C CNN
-F 3 "" H 12100 10175 60  0000 C CNN
-	1    12100 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L pcb:FIDUCIAL-1.5mm FID2
-U 1 1 5D240BD6
-P 13050 10200
-F 0 "FID2" H 13153 10259 50  0000 L CNN
-F 1 "FIDUCIAL-1.5mm" H 13153 10168 50  0000 L CNN
-F 2 "fab:FIDUCIAL-1.5mm" H 13050 10000 60  0001 C CNN
-F 3 "" H 13050 10175 60  0000 C CNN
-	1    13050 10200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13475 1450 12975 1450
-Wire Wire Line
-	12975 1450 12975 1850
-Connection ~ 12975 1850
-Wire Wire Line
-	12975 1850 12800 1850
-Text GLabel 14000 875  2    50   Input ~ 0
-VBAT
-Wire Wire Line
-	13775 1650 13775 1850
-Connection ~ 13775 1850
-Wire Wire Line
-	13775 1850 13725 1850
-Wire Wire Line
-	14000 875  13775 875 
-Wire Wire Line
-	13775 875  13775 1050
 Wire Notes Line
 	8000 4925 11325 4925
 Wire Notes Line
@@ -1236,215 +1187,6 @@ Wire Notes Line
 	11325 9800 8000 9800
 Wire Notes Line
 	8000 9800 8000 4925
-Text Notes 8025 5100 0    100  ~ 0
-LIPO Charger 
-$Comp
-L Battery_Management:MCP73831-2-OT U4
-U 1 1 5D8F2D56
-P 9525 5950
-F 0 "U4" V 9571 5609 50  0000 R CNN
-F 1 "MCP73831-2-OT" V 9480 5609 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9575 5700 50  0001 L CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 9375 5900 50  0001 C CNN
-F 4 "MCP73831T-2ATI/OTCT-ND" H 9525 5950 50  0001 C CNN "dk_pn"
-F 5 "MCP73831T-2ATI/OT" H 9525 5950 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP73831T-2ATI-OT/MCP73831T-2ATI-OTCT-ND/1979803" H 9525 5950 50  0001 C CNN "dk_web"
-	1    9525 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J4
-U 1 1 5D8F337C
-P 8275 5725
-F 0 "J4" H 8195 5400 50  0000 C CNN
-F 1 "Conn_01x02" H 8195 5491 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 8275 5725 50  0001 C CNN
-F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2017/8/30/DS1066-06.pdf" H 8275 5725 50  0001 C CNN
-F 4 "DS1066-06-2-M-R-B-1-R" H 8275 5725 50  0001 C CNN "pn"
-	1    8275 5725
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 5D8FC280
-P 8600 6800
-F 0 "#PWR0122" H 8600 6550 50  0001 C CNN
-F 1 "GND" V 8605 6672 50  0000 R CNN
-F 2 "" H 8600 6800 50  0001 C CNN
-F 3 "" H 8600 6800 50  0001 C CNN
-	1    8600 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8475 5725 8600 5725
-Wire Wire Line
-	8600 5725 8600 6800
-Text GLabel 8600 5225 2    50   Input ~ 0
-VBAT
-Wire Wire Line
-	8600 5225 8600 5550
-Wire Wire Line
-	8600 5625 8475 5625
-Wire Wire Line
-	8600 5550 9425 5550
-Connection ~ 8600 5550
-Wire Wire Line
-	8600 5550 8600 5625
-Text GLabel 8925 5950 0    50   Input ~ 0
-VBUS
-$Comp
-L power:GND #PWR0123
-U 1 1 5D919AEB
-P 9875 6800
-F 0 "#PWR0123" H 9875 6550 50  0001 C CNN
-F 1 "GND" V 9880 6672 50  0000 R CNN
-F 2 "" H 9875 6800 50  0001 C CNN
-F 3 "" H 9875 6800 50  0001 C CNN
-	1    9875 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9875 6800 9875 5950
-Wire Wire Line
-	9875 5950 9825 5950
-Wire Wire Line
-	9625 6350 9625 6450
-$Comp
-L power:GND #PWR0124
-U 1 1 5D92EB3F
-P 9625 6800
-F 0 "#PWR0124" H 9625 6550 50  0001 C CNN
-F 1 "GND" V 9630 6672 50  0000 R CNN
-F 2 "" H 9625 6800 50  0001 C CNN
-F 3 "" H 9625 6800 50  0001 C CNN
-	1    9625 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9625 6750 9625 6800
-$Comp
-L Device:LED D6
-U 1 1 5D934918
-P 9900 5350
-F 0 "D6" H 9950 5250 50  0000 R CNN
-F 1 "LED-YELLOW" H 10125 5450 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 9900 5350 50  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2492854/LY%20R976.pdf" H 9900 5350 50  0001 C CNN
-F 4 "475-2560-1-ND" H 9900 5350 50  0001 C CNN "dk_pn"
-F 5 "LY R976-PS-36" H 9900 5350 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LY-R976-PS-36/475-2560-1-ND/1802687" H 9900 5350 50  0001 C CNN "dk_web"
-	1    9900 5350
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9750 5350 9625 5350
-Wire Wire Line
-	9625 5350 9625 5550
-$Comp
-L Device:R R10
-U 1 1 5D94AE37
-P 10200 5350
-F 0 "R10" V 9993 5350 50  0000 C CNN
-F 1 "R1K" V 10084 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 10130 5350 50  0001 C CNN
-F 3 "" H 10200 5350 50  0001 C CNN
-F 4 "0805W8F1001T5E " H 10200 5350 50  0001 C CNN "pn"
-	1    10200 5350
-	0    -1   -1   0   
-$EndComp
-Text GLabel 10650 5125 2    50   Input ~ 0
-VBUS
-Wire Wire Line
-	10650 5125 10650 5350
-Wire Wire Line
-	10650 5350 10350 5350
-$Comp
-L Device:R R11
-U 1 1 5D95C717
-P 9625 6600
-F 0 "R11" V 9525 6250 50  0000 L CNN
-F 1 "R4.7K" V 9525 6425 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9555 6600 50  0001 C CNN
-F 3 "" H 9625 6600 50  0001 C CNN
-F 4 "311-4.7KGRTR-ND" H 9625 6600 50  0001 C CNN "dk_pn"
-F 5 "RC0603JR-074K7L" H 9625 6600 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRTR-ND/726785" H 9625 6600 50  0001 C CNN "dk_web"
-	1    9625 6600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5D95CE1C
-P 10650 6325
-F 0 "C9" H 10450 6325 50  0000 L CNN
-F 1 "C4.7uF/6.3V(20%)" V 10775 5950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10688 6175 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475MQ8NNNC/1276-1907-2-ND/3887565" H 10650 6325 50  0001 C CNN
-F 4 "1276-1907-2-ND" H 10650 6325 50  0001 C CNN "dk_pn"
-F 5 "CL10A475MQ8NNNC" H 10650 6325 50  0001 C CNN "pn"
-	1    10650 6325
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 5D962C00
-P 10650 6800
-F 0 "#PWR0125" H 10650 6550 50  0001 C CNN
-F 1 "GND" V 10655 6672 50  0000 R CNN
-F 2 "" H 10650 6800 50  0001 C CNN
-F 3 "" H 10650 6800 50  0001 C CNN
-	1    10650 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8925 5950 9225 5950
-Wire Wire Line
-	10650 5350 10650 6175
-Connection ~ 10650 5350
-Wire Wire Line
-	10650 6475 10650 6800
-Text GLabel 8675 8525 0    50   Input ~ 0
-I35
-Text GLabel 9150 7975 2    50   Input ~ 0
-VBAT
-$Comp
-L power:GND #PWR0126
-U 1 1 5D987A53
-P 9150 9025
-F 0 "#PWR0126" H 9150 8775 50  0001 C CNN
-F 1 "GND" V 9155 8897 50  0000 R CNN
-F 2 "" H 9150 9025 50  0001 C CNN
-F 3 "" H 9150 9025 50  0001 C CNN
-	1    9150 9025
-	1    0    0    -1  
-$EndComp
-$Comp
-L _passive:R R12
-U 1 1 5D987E35
-P 9150 8325
-F 0 "R12" H 9213 8424 50  0000 L CNN
-F 1 "R100K" H 9213 8333 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9213 8234 60  0001 L CNN
-F 3 "" H 9150 8375 60  0000 C CNN
-F 4 "RR08P100KDTR-ND" H 9150 8325 50  0001 C CNN "dk_pn"
-F 5 "RR0816P-104-D" H 9150 8325 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDTR-ND/432233" H 9150 8325 50  0001 C CNN "dk_web"
-	1    9150 8325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 7975 9150 8225
-Wire Wire Line
-	9150 8425 9150 8525
-Wire Wire Line
-	9150 8875 9150 9025
-Wire Wire Line
-	9150 8525 8675 8525
-Connection ~ 9150 8525
-Wire Wire Line
-	9150 8525 9150 8675
-Text Notes 8050 7500 0    100  ~ 0
-Read Battery Level
 Text GLabel 9050 10550 0    50   Input ~ 0
 IO2
 Wire Notes Line
@@ -1461,23 +1203,7 @@ Text Notes 8075 10000 0    100  ~ 0
 Led Indicator
 Text Notes 725  6425 0    100  ~ 0
 Connectors
-Text GLabel 4600 7675 2    50   Input ~ 0
-VBAT
-$Comp
-L _passive:R R13
-U 1 1 5D8EA109
-P 9150 8775
-F 0 "R13" H 9213 8874 50  0000 L CNN
-F 1 "R100K" H 9213 8783 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9213 8684 60  0001 L CNN
-F 3 "" H 9150 8825 60  0000 C CNN
-F 4 "RR08P100KDTR-ND" H 9150 8775 50  0001 C CNN "dk_pn"
-F 5 "RR0816P-104-D" H 9150 8775 50  0001 C CNN "pn"
-F 6 "https://www.digikey.com/product-detail/en/susumu/RR0816P-104-D/RR08P100KDTR-ND/432233" H 9150 8775 50  0001 C CNN "dk_web"
-	1    9150 8775
-	1    0    0    -1  
-$EndComp
-Text GLabel 4625 9700 2    50   Input ~ 0
+Text GLabel 3325 7775 2    50   Input ~ 0
 EN
 $Comp
 L undo:DizzyBITLogo U5
@@ -1493,50 +1219,185 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J2
 U 1 1 5D8FF691
-P 4325 9300
-F 0 "J2" H 4375 9817 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 4375 9726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4325 9300 50  0001 C CNN
-F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4325 9300 50  0001 C CNN
-F 4 "PC104-003-2*8-B-1" H 4325 9300 50  0001 C CNN "pn"
-	1    4325 9300
+P 6025 7550
+F 0 "J2" H 6075 8067 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 6075 7976 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 6025 7550 50  0001 C CNN
+F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2017/7/6/PC104-013.pdf" H 6025 7550 50  0001 C CNN
+F 4 "PC104-013-2*8-B-1" H 6025 7550 50  0001 C CNN "pn"
+	1    6025 7550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 7775 5175 7775
-Wire Wire Line
-	5175 7775 5175 6900
-Wire Wire Line
-	4125 9600 3400 9600
-Wire Wire Line
-	3400 9600 3400 8725
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J1
 U 1 1 5D9928C5
-P 4300 7475
-F 0 "J1" H 4350 7992 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 4350 7901 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4300 7475 50  0001 C CNN
-F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2014/11/24/PC104-003.pdf" H 4300 7475 50  0001 C CNN
-F 4 "PC104-003-2*8-B-1" H 4300 7475 50  0001 C CNN "pn"
-	1    4300 7475
+P 3125 7475
+F 0 "J1" H 3175 7992 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 3175 7901 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 3125 7475 50  0001 C CNN
+F 3 "http://www.connfly.com/userfiles/image/UpLoadFile/File/2017/7/6/PC104-013.pdf" H 3125 7475 50  0001 C CNN
+F 4 "PC104-013-2*8-B-1" H 3125 7475 50  0001 C CNN "pn"
+	1    3125 7475
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5825 7250 0    50   Input ~ 0
+I35
+Wire Wire Line
+	13725 1850 14375 1850
+Wire Wire Line
+	12800 1850 13125 1850
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J3
+U 1 1 5DEE6EEF
+P 6025 9300
+F 0 "J3" H 6075 9817 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 6075 9726 50  0000 C CNN
+F 2 "Connector_JST:JST_PUD_S16B-PUDSS-1_2x08_P2.00mm_Horizontal" H 6025 9300 50  0001 C CNN
+F 3 "" H 6025 9300 50  0001 C CNN
+F 4 "DS1066-01-2*8-M-R/A-W-8" H 6025 9300 50  0001 C CNN "pn"
+F 5 "T-DS1066-01-S-C-W-0-2*8" H 6025 9300 50  0001 C CNN "Mating PN"
+	1    6025 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7875 2100 8125
+$Comp
+L power:GND #PWR0122
+U 1 1 5DEFCFFB
+P 7075 10150
+F 0 "#PWR0122" H 7075 9900 50  0001 C CNN
+F 1 "GND" H 7080 9977 50  0000 C CNN
+F 2 "" H 7075 10150 50  0001 C CNN
+F 3 "" H 7075 10150 50  0001 C CNN
+	1    7075 10150
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:DMG2307L-7 Q?
-U 1 1 5D999E77
-P 13475 1450
-F 0 "Q?" H 13904 1596 50  0000 L CNN
-F 1 "DMG2307L-7" H 13904 1505 50  0000 L CNN
-F 2 "SOT96P240X110-3N" H 13925 1400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/DMG2307L-7.pdf" H 13925 1300 50  0001 L CNN
-F 4 "P-Channel Enhancement MOSFET SOT-23 Diodes Inc DMG2307L-7 P-channel MOSFET Transistor, -2 A, -30 V, 3-Pin SOT23" H 13925 1200 50  0001 L CNN "Description"
-F 5 "1.1" H 13925 1100 50  0001 L CNN "Height"
-F 6 "621-DMG2307L-7" H 13925 1000 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-DMG2307L-7" H 13925 900 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Diodes Inc." H 13925 800 50  0001 L CNN "Manufacturer_Name"
-F 9 "DMG2307L-7" H 13925 700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    13475 1450
+L power:+3.3V #PWR0123
+U 1 1 5DF01A90
+P 5100 8800
+F 0 "#PWR0123" H 5100 8650 50  0001 C CNN
+F 1 "+3.3V" H 5115 8973 50  0000 C CNN
+F 2 "" H 5100 8800 50  0001 C CNN
+F 3 "" H 5100 8800 50  0001 C CNN
+	1    5100 8800
 	1    0    0    -1  
 $EndComp
+Text GLabel 6325 9600 2    50   Input ~ 0
+EXT_5V
+Text GLabel 5825 9500 0    50   Input ~ 0
+I34
+Text GLabel 5825 9600 0    50   Input ~ 0
+I35
+Text GLabel 6325 9500 2    50   Input ~ 0
+IO3
+Text GLabel 5825 9300 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 5825 9200 0    50   Input ~ 0
+VSPI_MISO
+Text GLabel 5825 9100 0    50   Input ~ 0
+IO5
+Text GLabel 5825 9000 0    50   Input ~ 0
+IO0
+Text GLabel 6325 9000 2    50   Input ~ 0
+IO2
+Text GLabel 5825 9400 0    50   Input ~ 0
+IO1
+Text GLabel 6325 9400 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 6325 9300 2    50   Input ~ 0
+VSPI_MOSI
+Text GLabel 6325 9200 2    50   Input ~ 0
+VSPI_CLK
+Text GLabel 6325 9100 2    50   Input ~ 0
+IO4
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J4
+U 1 1 5DF10057
+P 3150 9425
+F 0 "J4" H 3200 9942 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 3200 9851 50  0000 C CNN
+F 2 "Connector_JST:JST_PUD_S16B-PUDSS-1_2x08_P2.00mm_Horizontal" H 3150 9425 50  0001 C CNN
+F 3 "" H 3150 9425 50  0001 C CNN
+F 4 "DS1066-01-2*8-M-R/A-W-8" H 3150 9425 50  0001 C CNN "pn"
+F 5 "T-DS1066-01-S-C-W-0-2*8" H 3150 9425 50  0001 C CNN "Mating PN"
+	1    3150 9425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5DF1005D
+P 3975 10400
+F 0 "#PWR0124" H 3975 10150 50  0001 C CNN
+F 1 "GND" H 3980 10227 50  0000 C CNN
+F 2 "" H 3975 10400 50  0001 C CNN
+F 3 "" H 3975 10400 50  0001 C CNN
+	1    3975 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0125
+U 1 1 5DF10065
+P 2225 8825
+F 0 "#PWR0125" H 2225 8675 50  0001 C CNN
+F 1 "+3.3V" H 2240 8998 50  0000 C CNN
+F 2 "" H 2225 8825 50  0001 C CNN
+F 3 "" H 2225 8825 50  0001 C CNN
+	1    2225 8825
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 9625 2    50   Input ~ 0
+IO16
+Text GLabel 2950 9325 0    50   Input ~ 0
+HSPI_MISO
+Text GLabel 2950 9225 0    50   Input ~ 0
+IO15
+Text GLabel 3450 9125 2    50   Input ~ 0
+IO27
+Text GLabel 2950 9125 0    50   Input ~ 0
+IO32
+Text GLabel 2950 9425 0    50   Input ~ 0
+IO33
+Text GLabel 2950 9625 0    50   Input ~ 0
+I36
+Text GLabel 3450 9425 2    50   Input ~ 0
+HSPI_MOSI
+Text GLabel 3450 9325 2    50   Input ~ 0
+HSPI_CLK
+Text GLabel 2950 9525 0    50   Input ~ 0
+IO17
+Text GLabel 3450 9525 2    50   Input ~ 0
+IO25
+Text GLabel 3450 9225 2    50   Input ~ 0
+IO26
+Text GLabel 2950 9725 0    50   Input ~ 0
+I39
+Text GLabel 3450 9725 2    50   Input ~ 0
+EXT_5V
+Wire Wire Line
+	3325 7875 4050 7875
+Wire Wire Line
+	4050 7875 4050 6850
+Wire Wire Line
+	7050 7950 7050 6775
+Wire Wire Line
+	6325 9700 7075 9700
+Wire Wire Line
+	3450 9825 3975 9825
+Wire Wire Line
+	3975 9825 3975 10400
+Wire Wire Line
+	2950 9825 2225 9825
+Wire Wire Line
+	2225 9825 2225 8825
+Wire Wire Line
+	7075 9700 7075 10150
+Wire Wire Line
+	5825 9700 5100 9700
+Wire Wire Line
+	5100 9700 5100 8800
+Wire Wire Line
+	2100 7875 2825 7875
+Wire Wire Line
+	6325 7950 7050 7950
 $EndSCHEMATC
